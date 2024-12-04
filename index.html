@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İkna ve Manipülasyon</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f7fb;
+            color: #333;
+            line-height: 1.7;
+            overflow-x: hidden;
+            font-size: 16px;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Raleway', sans-serif;
+            font-weight: 600;
+            text-align: center;
+            color: #2b2d42;
+            margin-bottom: 20px;
+            letter-spacing: 1px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            color: #1d1f29;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            color: #2a2e38;
+        }
+
+        h3, h4, h5, h6 {
+            font-size: 1.6rem;
+            color: #4a5568;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 30px;
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease-in-out;
+            border-top: 5px solid #2a9d8f;
+        }
+
+        .container:hover {
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
+            transform: scale(1.02);
+        }
+
+        .list-item {
+            background-color: #fff;
+            padding: 18px;
+            margin: 12px 0;
+            font-size: 1.2rem;
+            font-weight: 500;
+            border-radius: 8px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+            color: #3c434f;
+            transition: all 0.3s ease;
+            display: block;
+            text-align: left;
+            border-left: 5px solid #2a9d8f;
+        }
+
+        .list-item:hover {
+            background-color: #2a9d8f;
+            color: #fff;
+            transform: translateX(8px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+        }
+
+        .highlight {
+            background-color: rgba(42, 157, 143, 0.1);
+            padding: 15px;
+            border-radius: 8px;
+            font-weight: 600;
+            color: #2b2d42;
+        }
+
+        p {
+            font-size: 1.1rem;
+            color: #4a5568;
+            margin-bottom: 20px;
+            text-align: justify;
+            line-height: 1.8;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 1rem;
+            color: #a0aec0;
+            font-weight: 300;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+
+        .cta-btn {
+            display: inline-block;
+            background-color: #2a9d8f;
+            color: white;
+            padding: 12px 30px;
+            text-align: center;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border-radius: 5px;
+            margin-top: 30px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+
+        .cta-btn:hover {
+            background-color: #21867a;
+            border: 2px solid #21867a;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        @media screen and (max-width: 768px) {
+            .container {
+                padding: 20px;
+                margin: 15px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2, h3 {
+                font-size: 1.5rem;
+            }
+
+            .list-item {
+                font-size: 1rem;
+                padding: 12px;
+            }
+
+            .cta-btn {
+                width: 100%;
+                font-size: 1.2rem;
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1><strong>Bankacılıkta Kredi Ödemelerinde İtiraz Alınan Konular</strong></h1>
+        <div class="list-item"><strong>☛ Kredi Masrafları ve Dosya Ücretleri</strong></div>
+        <div class="list-item"><strong>☛ Erken Kapama Ücretleri</strong></div>
+        <div class="list-item"><strong>☛ Sigorta Poliçeleri</strong></div>
+
+        <h2><strong>Bankacılıkta Şikayet Edilen Konular</strong></h2>
+        <div class="list-item"><strong>☛ Hesap İşletim Ücretleri</strong></div>
+        <div class="list-item"><strong>☛ Kredi Kartı Ücretleri</strong></div>
+        <div class="list-item"><strong>☛ İnternet Bankacılığı ve Güvenlik</strong></div>
+        <div class="list-item"><strong>☛ Yüksek Ücret ve Komisyonlar</strong></div>
+        <div class="list-item"><strong>☛ Kredi Reddi ve Şeffaf Olmayan Değerlendirme</strong></div>
+        <div class="list-item"><strong>☛ Yanıltıcı Reklamlar ve Bilgilendirme Eksikliği</strong></div>
+        <div class="list-item"><strong>☛ Müşteri Hizmetleri Sorunları</strong></div>
+
+        <h3><strong>Türkiye’de Bankaların Yapılandırma Usulleri</strong></h3>
+        <div class="list-item"><strong>☛ Konsolidasyon Kredileri:</strong> Farklı bankalardaki borçların tek bir krediyle birleştirilmesi.</div>
+        <div class="list-item"><strong>☛ İcra ve Takip Süreçlerinin Dondurulması</strong></div>
+
+        <h4><strong>Türkiye için 2025 Faiz Politikası</strong></h4>
+        <p><strong>Beklentiler:</strong> Enflasyonda kalıcı bir düşüş ile kademeli olarak faizlerin düşmesi bekleniyor. Enflasyon oranının %20-25 seviyelerine gelmesi tahmin ediliyor.</p>
+
+        <h5><strong>Türkiye'de Risk Merkezindeki Kredi ve Kredi Kartı Kullanıcıları</strong></h5>
+        <p>2024 verilerine göre yaklaşık <strong>40,9 milyon</strong> kişi bireysel kredi ve kredi kartı kullanmaktadır. Ayrıca Türkiye'de <strong>127.809.528 kredi kartı</strong> bulunmaktadır.</p>
+
+        <div class="list-item"><strong>☛ Kredi Kartları - %46</strong></div>
+        <div class="list-item"><strong>☛ İhtiyaç Kredileri - %27</strong></div>
+        <div class="list-item"><strong>☛ Konut Kredileri - %13</strong></div>
+        <div class="list-item"><strong>☛ Taşıt Kredileri - %3</strong></div>
+        <div class="list-item"><strong>☛ Kredili Mevduat Hesapları - %3</strong></div>
+
+        <h6><strong>Risk Merkezinde Borçlu Bilgilerinin Tutulma Politikası</strong></h6>
+        <p><strong>☛ Veri Toplama ve Paylaşımı:</strong> Bankalar, kredi bilgilerini günlük veya aylık olarak Risk Merkezi’ne iletir.</p>
+        <p><strong>☛ Borçlu Durumunun Değerlendirilmesi:</strong> Risk Merkezi, borçluların ödeme alışkanlıklarını, borç seviyelerini ve kredi geçmişlerini izler. bu bilgiler, kredi değerlendirmesinde önemli bir rol oynar.</p>
+
+        <footer>
+            <p>&copy; 2024 Bankacılık ve Finans Stratejileri. Tüm Hakları Saklıdır.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
